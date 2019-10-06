@@ -1,0 +1,17 @@
+{% extends 'template.html' %}
+{% block content %}
+					<h1 style="font-weight: bold; font-size: 500%; font-style: italic;">MLPlayer</h1>
+					<br>
+					<div class="description">
+						<p>
+							Upload the dataset to make it hassle free and ideal to start Machine Learning!
+						</p>
+					</div>
+					<br>
+					<form method ='post' enctype=multipart/form-data>
+					<input type="file" name="file">
+					<br>
+					<br>
+					<b><input type="submit" value="Next" name="next"></b>
+				</form>
+    {% endblock %}
